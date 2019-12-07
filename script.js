@@ -36,6 +36,31 @@ var questions = [
 var score = 0;
 var questionCounter = 0;
 
+function startGame{
+    question.forEach(
+        currentQuestion, questionNumber
+    )
+}
+
+function nextQuestion{
+//creat  counter
+//using counter to go through the index
+}
+
+function selectAnswer{
+//and array of all the choice
+}
+
+//timmer function golbal while quiz
+//start fuction to start quiz and timer
+//quiz begin, clicking an choice moves to next Q
+//if time runs out or all Q are done, go to result screen
+//result screen local storage, high score
+//make different index file for each one????
+//if not button style display = none, block
+
+
+
 
 for (i=0; i < questions.length; i++){
     var response = window.prompt(questions[i].prompt);
